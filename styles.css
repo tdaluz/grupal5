@@ -1,4 +1,9 @@
-.navbar {
-  color: white
-
+main{
+    margin: 50px;
 }
+
+#columns{
+    text-align: justify;
+    align-items: right;
+}
+
