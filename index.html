@@ -16,7 +16,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <link href="/styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <title>Grupal 5</title>
   </head>
 
@@ -39,10 +39,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav w-100">
-            <li class="nav-item">
+          <ul class="navbar-nav w-100" id="lista_nav">
+            <li class="nav-item" >
               <a class="nav-link active" href="#"
-                >Home <span class="sr-only">(current)</span></a>
+                >Home <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
@@ -51,7 +51,7 @@
               <a class="nav-link" href="#">Disable</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0" id="busqueda">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           </form>
         </div>
@@ -73,12 +73,23 @@
         </div>
       </div>
       <div>
-        <div>
-          <p>daaaaaaaaaaaaaaaaaa</p>
-        </div>
+        
         <div class="container" id="columns">
           <div class="row justify-content-end">
-            <div class="col order-last col-12 col-sm-6 col-md-3">
+
+            
+          <div class="list-group col order-first col-12 col-sm-6 col-md-3">
+            <a href="#" class="list-group-item list-group-item-action">
+              Cras justo odio
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+          </div>
+
+
+
+            <div class="col  col-12 col-sm-6 col-md-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               repudiandae fugit est quisquam perferendis velit iusto distinctio
               labore doloremque in explicabo totam nemo tenetur, possimus quia,
@@ -96,7 +107,7 @@
               repudiandae minima asperiores culpa id deserunt aut perferendis
               cumque nemo qui facere, eum accusamus exercitationem dolores.
             </div>
-            <div class="col order-first col-12 col-sm-6 col-md-3">
+            <div class="col order-last col-12 col-sm-6 col-md-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
               dolores placeat delectus exercitationem, eum amet. Nisi itaque
               earum voluptas exercitationem, cumque consequuntur suscipit nobis,

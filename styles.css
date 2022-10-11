@@ -7,3 +7,32 @@ main{
     align-items: right;
 }
 
+a{
+    text-decoration: underline;
+}
+
+
+
+/*tamanio MD*/
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;   
+    }
+    
+
+    #busqueda{
+        order:initial ;
+    }
+
+}
+  
+
+/*tamanio SM*/
+@media only screen and (max-width: 576px) {
+    body {
+      background-color: red ;
+    }
+
+
+
+}
